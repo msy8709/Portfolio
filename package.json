@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://msy8709.github.io/pages/"
+    "homepage": "https://msy8709.github.io/"
   },
   "eslintConfig": {
     "extends": [
