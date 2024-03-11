@@ -5,7 +5,6 @@ import { FaIdCard } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaSchool } from "react-icons/fa";
-import pimg3 from '../source/스크린샷 2024-03-11 오후 4.46.11.png';
 import { TfiArrowCircleDown } from "react-icons/tfi";
 export default function Main(){
     return(
