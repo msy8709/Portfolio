@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import ProjectC from '../Component/Project';
 
 const Project = () => {
     return (
         <ProjectStyle id='project'>
             <p className='title'>PROJECT</p>
-            <Project/>
+            <ProjectC />
         </ProjectStyle>
     );
 };
@@ -14,7 +15,7 @@ export default Project;
 
 const ProjectStyle = styled.section`
     width: 100vw;
-    height: 120vh;
+    height: 300vh;
     background-color: rgb(0,170,255,0.5);
     position: relative;
     top: 10vh;
@@ -27,6 +28,6 @@ const ProjectStyle = styled.section`
         font-weight: 600;
         font-family:'cursive';
         text-decoration: underline;
-        margin:0;
+        margin:0 0 0 0;
     }
 `

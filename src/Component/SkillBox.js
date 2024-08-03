@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import HtmlIcon from '../assets/htmlIcon.png';
-import Css from '../assets/cssIcon.png';
-import Js from '../assets/jsIcon.png';
-import Tailwind from '../assets/TailwindIcon.png';
-import ReactIcon from '../assets/reactIcon.png';
-import Tsicon from '../assets/TsIcon.png';
-import Sass from '../assets/sassIcon.png';
-import FigmaIcon from '../assets/figmaIcon.png';
-import Github from '../assets/githubIcon.png';
-import Mysql from '../assets/mysqlIcon.png';
-import Node from '../assets/nodeIcon.png';
-import Postman from '../assets/postmanIcon.png';
-import VsCode from '../assets/vscodeIcon.png';
+import HtmlIcon from '../assets/skill/htmlIcon.png';
+import Css from '../assets/skill/cssIcon.png';
+import Js from '../assets/skill/jsIcon.png';
+import Tailwind from '../assets/skill/TailwindIcon.png';
+import ReactIcon from '../assets/skill/reactIcon.png';
+import Tsicon from '../assets/skill/TsIcon.png';
+import Sass from '../assets/skill/sassIcon.png';
+import FigmaIcon from '../assets/skill/figmaIcon.png';
+import Github from '../assets/skill/githubIcon.png';
+import Mysql from '../assets/skill/mysqlIcon.png';
+import Node from '../assets/skill/nodeIcon.png';
+import Postman from '../assets/skill/postmanIcon.png';
+import VsCode from '../assets/skill/vscodeIcon.png';
 const SkillBox = ({title}) => {
     const [skillData, setSkillData] = useState({ icons: [], message: '' });
     useEffect(() => {

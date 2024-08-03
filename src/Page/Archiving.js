@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Velog from '../assets/velog.png';
-import Github from '../assets/github.png';
+import Velog from '../assets/skill/velog.png';
+import Github from '../assets/skill/github.png';
 
 const Archiving = () => {
 

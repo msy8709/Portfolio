@@ -1,5 +1,3 @@
-import { useState } from "react"
-import { NavLink } from "react-router-dom"
 import styled from "styled-components"
 
 export default function Nav(){
@@ -18,7 +16,6 @@ export default function Nav(){
     )
 }
 const NavStyle = styled.div`
-
     width: 100vw;
     height: 10vh;
     display: flex;

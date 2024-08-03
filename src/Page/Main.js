@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "../Component/Nav";
 import styles from "./Main.module.css";
-export default function Main({ref}){
+export default function Main(){
     return(
         <div>
         
-            <section id="Intro" className={styles.IntroBack} ref={ref}>
+            <section id="Intro" className={styles.IntroBack} >
                 <div className={styles.box}>
                     <div className={`${styles.wave} ${styles['-one']}`}></div>
                     <div className={`${styles.wave} ${styles['-two']}`}></div>
