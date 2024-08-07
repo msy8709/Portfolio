@@ -10,7 +10,6 @@ export default function Nav(){
                 <a href="#skill">Skill</a >
                 <a href="#archiving">Archiving</a >
                 <a href="#project">Project</a >
-                <a href="#experience">Experience</a >
             </div>
         </NavStyle>
     )

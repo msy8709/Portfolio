@@ -53,6 +53,8 @@ const ArchivingStyle = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+        height: 45vh;
         .box{
             display: flex;
             flex-direction:column;
@@ -63,11 +65,11 @@ const ArchivingStyle = styled.section`
             cursor: pointer;
             color: white;
             margin: 5vh 4vh;
+            transition: transform 0.5s ease;
+            position: relative;
         
             &:hover{
-                width: 38vh;
-                height: 38vh;
-                transition: width 0.5s ease, height 0.5s ease ;
+                transform: scale(1.1); /* Scale up by 10% */
             }
             a{
                 color: white;
@@ -79,7 +81,7 @@ const ArchivingStyle = styled.section`
             p{
                 margin: 1vh 3vh;
                 width: 80%;
-                font-size: 1.8;
+                font-size: 1.8vh;
                 font-weight: 600;
                 font-family:'cursive';
             }
@@ -95,5 +97,4 @@ const ArchivingStyle = styled.section`
             }
         }
     }
-    
-`
+`;
