@@ -33,7 +33,7 @@ const AboutMeStyle = styled.section`
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     top: 10vh;
     .title{
@@ -41,6 +41,7 @@ const AboutMeStyle = styled.section`
         font-weight: 600;
         font-family:'cursive';
         text-decoration: underline;
+        margin-top: 15vh;
     }
 `
 const Contents = styled.div`

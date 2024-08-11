@@ -28,7 +28,7 @@ const ProjectC = () => {
   }
   return (
     <>
-      <ProjectStyle>
+      <ProjectStyle style={{height: '55vh'}}>
         <SliderStyle className='slider-container'  style={{width: '15vw',height: '40vh'}}>
           <Slider {...settings}>
             <div className='sliderInbox'>
@@ -53,13 +53,15 @@ const ProjectC = () => {
           <a href='https://github.com/msy8709/AGROUNDS/blob/main/frontend/aground_demo/README.md'>github.com/msy8709/AGROUNDS</a>
           <p>2024.06.01 ~ 2024.08.31(백엔드 2, 프론트 1)</p>
           <b style={{fontSize:'2vh'}}>정부 예비창업패키지 참여중</b>
-          <p>AGROUNDS는 아마추어 축구 커뮤니티의 요구를 반영하여 기획된 서비스로, 경기 기록 및 전술 분석을 통해 팀과 선수들이 더 나은 경기를 할 수 있도록 돕습니다. 이 데모 버전은 일부 유저들에게 배포되어 피드백을 수집하고, 이를 바탕으로 필요한 기능을 강화하고 불필요한 기능은 제거하여 서비스의 완성도를 높일 계획입니다.</p>
-          <br/>
-          <p>홀로 2명의 개발자와 개발을 진행하며 Restful API에 대한 이해를 증가시킬 수 있었고, 리액트에 대해 심층적으로 이해할 수 있었습니다.</p>
+          <p>AGROUNDS는 아마추어 축구 커뮤니티의 요구를 반영하여 기획된 서비스로, 리그 관리와 GPS 기반 전술 분석을 통해 팀과 선수가 경기력을 극대화할 수 있도록 지원합니다. 이 프로젝트에서 저는 프론트엔드 개발을 담당했으며, 사용자 경험을 최적화하기 위해 다양한 기술을 활용하고, 복잡한 문제를 팀과 협력하여 해결했습니다.</p>
+          
+          <b style={{fontSize:'2vh'}}>주요성과</b>
+          <p>실시간 GPS 데이터를 기반으로 한 전술 분석 페이지를 구현하면서, Canvas API를 사용하여 경기 중 선수들의 움직임을 시각적으로 표현했습니다. GPS 데이터는 매 0.1초마다 갱신되며, 이를 시각화하는 과정에서 성능 최적화를 위해 requestAnimationFrame을 사용하여 애니메이션의 부드러움을 유지했습니다. </p>
+          <b style={{fontSize:'1.9vh'}}>주요기여: GPS 데이터 시각화, 소셜 로그인 연동, 사용자 피드백 반영 및 개선</b>
         </DescriptionStyle>
       </ProjectStyle>
 
-    <ProjectStyle>
+    <ProjectStyle style={{height: '60vh'}}>
       <SliderStyle className='slider-container'  style={{width: '20vw',height: '20vh', marginLeft: '6vh'}}>
         <Slider {...settings}>
           <div className='sliderInbox'>
@@ -82,12 +84,15 @@ const ProjectC = () => {
         <a href='https://github.com/msy8709/Movie_View/tree/main'>github.com/msy8709/Movie_View</a>
         <p>2024.06.29 ~ 2024.07.15(기능별 구현, 팀원 5)</p>
         <b style={{fontSize:'2vh'}}>미니 프로젝트</b>
-        <p>영화 정보 조회와 리뷰를 작성할 수 있는 웹 프로젝트입니다. 프론트엔드, 백엔드를 따로 나누지 않고 맡은 기능별로 역할을 분담하여 프로젝트를 진행했습니다. 마이페이지에서 프로필 사진, 닉네임 수정을 담당했으며 S3에 사진을 저장하는 방식을 이용하여 클라우드 사용 경험을 얻을 수 있었습니다.</p>
-        <p>프로젝트를 진행하며, 맥과 window의 운영체제 차이때문에 이미지가 제대로 로드되지 않는 문제를 직면하였고 이를 해결하기 위해 코드 상단에서 경로 분리를 사용하여 해결했습니다. </p>
+        <p>MovieView는 사용자들이 영화 정보를 조회하고 리뷰를 작성할 수 있는 웹 서비스로, 팀원들이 맡은 기능별로 역할을 분담하여 개발했습니다. 저는 마이페이지의 프로필 사진 및 닉네임 수정 기능을 담당하며, AWS를 활용한 이미지 관리와 운영체제 간의 호환성 문제를 해결하는 데 주력했습니다.</p>
+        <b style={{fontSize:'2vh'}}>주요성과</b>
+        <p>1. 초기에는 Next.js 서버의 스토리지에 프로필 사진을 static하게 저장했으나, 서버 부하 문제와 저장 공간의 한계로 인해 장기적인 운영에 어려움이 발생했습니다. 이를 해결하기 위해 AWS S3를 도입하였고 그 결과, 서버 부하는 감소하였고 안정성은 증가하였습니다.</p>
+        <p style={{marginTop:'.5vh'}}>2. Mac과 Windows 운영체제 간의 이미지 경로 차이로 인해 발생한 문제를 해결하기 위해, 코드 상단에서 경로 분리 로직을 추가하여 호환성을 확보했습니다.</p>
+        <b style={{fontSize:'1.9vh'}}>주요 기여: S3 연동을 통한 프로필 사진 관리, 닉네임 수정 기능 구현, 운영체제 간 경로 문제 해결</b>
       </DescriptionStyle>
     </ProjectStyle>
 
-    <ProjectStyle>
+    <ProjectStyle style={{height: '60vh'}}>
         <SliderStyle className='slider-container'  style={{width: '15vw',height: '40vh'}}>
           <Slider {...settings}>
             <div className='sliderInbox'>
@@ -127,13 +132,15 @@ const ProjectC = () => {
           <a href='https://github.com/msy8709/GoldenHour-FE'>github.com/msy8709/GoldenHour-FE</a>
           <p>2024.04.10 ~ 2024.05.13(프론트 2)</p>
           <b style={{fontSize:'2vh'}}>나랑팀해듀오 해커톤 우수상 수상</b>
-          <p>Golden Hour Prototype은 지각 방지 서비스 Golden Hour의 주요기능 실험을 위해 만든 프로토타입 입니다. 지각의 근본적인 원인은 '본인의 준비시간을 인지하지 못하기 때문이다' 라는 가설을 세우고 유저의 준비시간을 직접 측정할 수 있도록 구현하였습니다.</p>
+          <p>Golden Hour Prototype은 사용자가 지각을 방지할 수 있도록 돕는 서비스 "Golden Hour"의 핵심 기능을 실험하기 위해 개발된 프로토타입입니다. 프로젝트에서 저는 프론트엔드 개발을 담당하며, 사용자 경험을 극대화하기 위한 다양한 기술적 도전과 해결을 이끌었습니다.</p>
           <br/>
-          <p>React Native를 사용하여 background에서도 타이머가 작동할 수 있게 구현하였습니다.</p>
+          <b style={{fontSize:'2vh'}}>주요성과</b>
+          <p>앱이 백그라운드 상태로 전환될 때 타이머가 중단되는 문제에 직면했습니다. 이 문제는 타이머가 중단될 경우, 사용자의 준비 시간을 정확하게 측정할 수 없다는 치명적인 오류로 이어졌습니다. 이를 해결하기 위해 Animated API와 setInterval을 사용해 앱이 백그라운드 상태에서의 타이머가 작동을 보장하고 시스템 시간과 연동하여 100% 정확하게 작동하도록 구현하였습니다.</p>
+          <b style={{fontSize:'1.9vh'}}>주요 기여: 타이머 기능 구현, 상태 관리 최적화, 사용자 중심의 UI/UX 설계</b>
         </DescriptionStyle>
       </ProjectStyle>
 
-    <ProjectStyle style={{height: '80vh'}}>
+    <ProjectStyle style={{height: '120vh'}}>
       <SliderStyle className='slider-container'  style={{width: '15vw',height: '40vh'}}>
         <Slider {...settings}>
           <div className='sliderInbox'>
@@ -165,19 +172,26 @@ const ProjectC = () => {
       </SliderStyle>
       <DescriptionStyle>
         <p className='subject'>📸 Moa Moa</p>
-        <a href='https://github.com/moonKooFE/moamoa_new'>github.com/moonKooFE/moamoa_new</a>
+        <b style={{fontSize:'2vh'}}>프로젝트 개요</b>
+        <p>Moa Moa는 사용자가 랜덤으로 포즈를 추천받아 사진을 찍고, 공유 사진첩을 통해 추억을 간직할 수 있는 서비스입니다. 이 프로젝트는 GDG Campus Korea x Whatever 메이커톤에서 3등을 수상하고, 인하대학교 창업지원단 아랩엑셀러레이팅 예비창업트랙에서 대상을 수상했습니다. 프로젝트의 목표는 사용자가 쉽게 사진을 찍고 공유할 수 있는 커뮤니티를 제공하는 것이었습니다.</p>
+        {/* <a href='https://github.com/moonKooFE/moamoa_new'>github.com/moonKooFE/moamoa_new</a> */}
         <b style={{fontSize:'2vh', fontWeight:'700'}}>1차 스프린트</b>
         <p>2023.09.01 ~ 2023.09.30(백엔드 2, 프론트 2, PM 1, 디자이너 1)</p>
         <b style={{fontSize:'2vh'}}>GDG Campus Korea x Whatever 메이커톤 3등 수상</b>
-        <p>Google Developer Group에서 주관한 6주 프로덕트 메이커 챌린지에 참여하여 진행한 첫 팀프로젝트 입니다. 이 서비스는 랜덤으로 포즈를 추천받아 사진을 찍은 후 공유 사진첩에서 추억을 간직할 수 있는 서비스입니다.</p>
-        <p>무한스크롤, 탭, 이미지 업로드 처리 등을 구현하였습니다. </p>
+        <p>첫 팀 프로젝트로, 6주라는 짧은 기간 동안 기획부터 배포까지 빠르게 진행되었습니다. 이 시기에는 프로젝트의 기본 레이아웃과 주요 기능을 구현하는 데 주력했습니다. </p>
         <br/>
+        <b style={{fontSize:'2vh'}}>주요 성과</b>
+        <p>사용자가 자신의 프로필 사진과 닉네임을 변경할 수 있는 기능을 구현했습니다. React와 useState 훅을 사용해 사용자 입력을 관리하고, useEffect 훅을 활용해 기존 프로필 정보를 불러오는 로직을 추가했습니다. 이미지 파일은 FileReader를 통해 Base64로 인코딩하여 미리보기를 제공했으며, 파일 크기가 1MB를 초과할 경우 imageCompression 라이브러리를 사용해 이미지 크기를 자동으로 압축했습니다. 이를 통해 대용량 이미지도 안정적으로 서버에 전송하고, 사용자 인터페이스에서 이미지가 빠르게 로드되도록 최적화했습니다.</p>
+        <b style={{fontSize:'1.9vh'}}>주요 기여: 레이아웃 및 핵심 기능 구현, 이미지 업로드 최적화</b>
         <br/>
         <b style={{fontSize:'2vh', fontWeight:'700'}}>2차 출시</b>
         <p>2023.11.01 ~ 2024.01.02(백엔드 2, 프론트 2, PM 1, 디자이너 1)</p>
         <b style={{fontSize:'2vh'}}>인하대학교 창업지원단 아랩엑셀러레이팅 예비창업트랙 대상 수상</b>
-        <p>Google Developer Group에서 주관한 6주 프로덕트 메이커 챌린지에 참여하여 진행한 첫 팀프로젝트 입니다. 이 서비스는 랜덤으로 포즈를 추천받아 사진을 찍은 후 공유 사진첩에서 추억을 간직할 수 있는 서비스입니다.</p>
-        <p>무한스크롤, 탭, 이미지 업로드 처리 등을 구현하였습니다. </p>
+        <p>두 번째 스프린트에서는 개발의 완성도를 높이고, 실제 사용자 유입에 주력했습니다. 1차로 대학생 커뮤니티에, 2차로 홍대, 신촌 등 대학가에 QR 코드를 배포하여 약 2000명의 사용자를 유치했습니다. Google Analytics를 도입해 사용자 행동을 분석하고, 이를 바탕으로 UI/UX를 지속적으로 개선했습니다. 사용자 피드백을 반영하여 주요 기능의 사용성을 개선하고, 서비스 만족도를 높였습니다.</p>
+        <br/>
+        <b style={{fontSize:'2vh'}}>주요 성과</b>
+        <p>유저에게 서비스를 배포한 뒤, GA를 통해 사용자 행동을 분석했습니다. 분석 결과, 랜덤 포즈 뽑기 기능의 페이지뷰와 체류시간이 높은 반면, 공유 사진첩 생성 수는 단 한 건도 발생하지 않은 것을 확인하였습니다. UI/UX 분석을 통해 처음 사용하는 유저가 공유 사진첩에 접근하기 어렵다는 문제를 확인했습니다. 이에 따라, 공유 사진첩에 접근하기 쉽도록 UI/UX를 개선하였고 홈 화면에서 공유 사진첩으로의 진입 경로를 직관적으로 개선하며 주요 기능으로 강조했습니다. 개선 결과, 공유 사진첩 생성 수가 29건으로 증가하였고 약 2000명의 사용자를 유치할 수 있었습니다.  </p>
+        <b style={{fontSize:'1.9vh'}}>주요 기여: 사용자 유입을 위한 기능 개발 및 홍보, UI/UX 개선을 통한 사용자 경험 향상</b>
 
       </DescriptionStyle>
     </ProjectStyle>
@@ -245,7 +259,7 @@ const DescriptionStyle = styled.div`
   }
 
     p{
-      font-size: 2vh;
+      font-size: 1.8;
       font-weight: 500;
       font-family:'cursive';
     }

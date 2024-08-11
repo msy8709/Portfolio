@@ -34,7 +34,7 @@ const Archiving = () => {
 export default Archiving;
 
 const ArchivingStyle = styled.section`
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     position: relative;
     top: 10vh;
@@ -47,7 +47,7 @@ const ArchivingStyle = styled.section`
         font-weight: 600;
         font-family:'cursive';
         text-decoration: underline;
-        margin: 0;
+        margin: 10vh 0 0 0;
     }
     .boxgroup{
         display: flex;

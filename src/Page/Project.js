@@ -15,7 +15,7 @@ export default Project;
 
 const ProjectStyle = styled.section`
     width: 100vw;
-    height: 300vh;
+    height: 380vh;
     background-color: rgb(0,170,255,0.5);
     position: relative;
     top: 10vh;
